@@ -1,0 +1,51 @@
+body { background-color: #81e1f1; 
+}
+
+.animate__animated.animate__bounce {
+  --animate-duration: 2s;
+  --animate-repeat: 2;
+}
+
+.flex-container {
+    display: flex;  
+    flex-wrap: wrap;  
+    flex-direction: row;
+    
+  }
+  
+      .caja {
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+      background-color: red;
+      color: yellow;
+      }
+      #dos {
+      background: black;
+      color: white;
+      }
+
+      footer {
+        font: size 50px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        height: 2em;
+        background-color: blue;
+        justify-content: center;
+        color:white;
+        width: 100%;
+        margin: 0;
+        border: solid black;
+        display: flex;
+        align-items: center;
+
+      }
+
+
+
+
+ 
+  
+  
