@@ -1,4 +1,6 @@
 body { background-color: #81e1f1; 
+  background-image: url("mi-imagen.jpg");
+  background-size: 10rem;
 }
 
 .animate__animated.animate__bounce {
