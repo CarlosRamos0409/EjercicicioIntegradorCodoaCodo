@@ -6,18 +6,28 @@
     <title>Ejercicio Integrador</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
-  <body>
+  
+  <script>
+    function cambiar() {
+      document.getElementById('body').style.backgroundImage='url(mi-imagen2.jpg)';
+    }
+  </script>
+  
+  <body id="body">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
     <h1 class="animate__animated animate__bounce" style="color:#2600ff">Ejercicio Integrador - Flexible Boxes</h1>
-
+    <br>
+    <button class="button button1" onclick="cambiar();">Cambiar Fondo</button>
+    <br>
+    <br>
     <div class="flex-container">
       <div class="caja" id="uno">uno</div>
       <div class="caja" id="dos">dos</div>
       <div class="caja" id="tres">tres</div>
       <div class="caja" id="cuatro">cuatro</div> 
-    
+      
       <footer>
         <p>Codo a Codo - Comición 23042 - Alumno: Ramos Juan Carlos</p>
       </footer>
